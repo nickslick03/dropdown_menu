@@ -18,8 +18,8 @@ function formatDropdownMenu(container, title, list) {
   list.style = 
   `list-style-type: none; 
    overflow: hidden;
-   box-sizing: border-box;
-   width: ${title.offsetWidth}px; 
+   box-sizing: border-box; 
+   width: 100%;
    padding: 0;
    margin: 0;
    position: absolute;
