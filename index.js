@@ -27,7 +27,7 @@ function formatDropdownMenu(container, title, list) {
    transition-property: height, top; 
    transition-duration: 1s;`;
   makeInvisible(list, title.clientHeight);
-  document.body.addEventListener('click', () => {
+  container.addEventListener('click', () => {
     isVisible ? makeInvisible(list, title.clientHeight) : makeVisible(list, title.offsetHeight, listHeight);
     isVisible = !(isVisible);
   });
